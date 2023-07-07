@@ -199,7 +199,7 @@ def highlight_syntax(event=None):
             end = 'end'
             editor.tag_remove(pattern, start, end)
             while True:
-                start = editor.search(tag, start, END, nocase=1, stopindex='end')
+                start = editor.search(tag, start, END, nocase=1)
                 if not start:
                     break
                 end = f'{start}+{len(tag)}c'
