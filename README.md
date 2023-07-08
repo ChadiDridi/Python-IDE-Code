@@ -1,3 +1,12 @@
 # Python-IDE-Code
-This repository contains the creation of an open source project which is a New Python IDE 
-Feel free to contribute and to add values :)
+
+
+### Install
+
+To install run:
+```
+git clone https://github.com/ChadiDridi/Python-IDE-Code
+cd Python-IDE-Code
+pip install tk
+python3 myPythonIDE.py
+```
